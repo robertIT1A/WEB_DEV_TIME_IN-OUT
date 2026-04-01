@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shift</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="nav-log">
+        <h2>Shift</h2>
+      </a>
+      <ul class="nav_menu">
+        <li class="nar_item">
+          <a href="#">Dashboard</a>
+        </li>
+        <li class="nar_item">
+          <a href="#">Employees</a>
+        </li>
+        <li class="nar_item">
+          <a href="#">Scheadule</a>
+        </li>
+        <li class="nar_item">
+          <a href="#">Time Off</a>
+        </li>
+        <li class="nar_item">
+          <a href="#">Timesheet</a>
+        </li>
+        <li class="nar_item">
+          <a href="#">Reports</a>
+        </li>
+        <li class="nar_item">
+          <a href="#">Messages</a>
+        </li>
+      </ul>
+      <br />
+      <div class="nav_set">
+        <i class="fa-regular fa-bell"></i> <i class="fa-solid fa-gear"></i>
+      </div>
+    </nav>
+
+    <main>
+      <!-- pending -->
+      <div class="widgets">
+        <div class="clock">
+          <i>Time CLock</i>
+          <div class="center">
+            <i>Today's Time</i>
+            <i id="time">00:00:00</i>
+            <div class="your_time">
+              <i>Your Time</i>
+              <i id="time_record">00:00:00</i>
+              <button class="start" id="start">Start</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
